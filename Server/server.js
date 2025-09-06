@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 // Initialize socket.io
 export const io = new Server(server, {
-  cors: { origin: "*" },
+  cors: { origin: "https://chattingapp-1-pt1l.onrender.com" },
 });
 
 export const userSocketMap = {};
